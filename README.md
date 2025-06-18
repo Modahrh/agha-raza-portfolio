@@ -1,41 +1,43 @@
-# 👨‍💻 Agha Raza – Developer Portfolio
+# 🌐 Agha Raza – Developer Portfolio
 
-A fully responsive and modern personal portfolio website made with **React.js**, hosted on **Firebase**, and designed to showcase my projects, skills, and contact information.
+A modern, high-performance personal portfolio built with **React.js**. Deployed via **Firebase Hosting**, it showcases selected projects, technical expertise, and professional identity. Designed with scalability and clean UI principles in mind.
 
-Live Site: [agharaza.web.app](https://agharaza.web.app)
-
----
-
-## 🚀 Tech Stack
-
-- 🔹 **React.js**
-- 🔹 **HTML5 / CSS3**
-- 🔹 **JavaScript (ES6+)**
-- 🔹 **Firebase Hosting**
+🔗 **Live Preview** → [agharaza.web.app](https://agharaza.web.app)
 
 ---
 
-## 📂 Features
+## 🧰 Tech Stack
 
-- Fully responsive on all Mobile devices 📱
-- Fast performance and clean UI
-- Projects section with detailed descriptions
-- SPA behavior
-- Social media links
+- ⚛️ React (with functional components & hooks)
+- 💅 Modern CSS (Flexbox & Grid)
+- 🌐 Firebase Hosting
+- 📦 NPM for package management
 
 ---
 
-## 📁 Setup Instructions
+## ✨ Features
+
+- 📱  Mobile-first design
+- ⚡ Optimized for fast load time & performance
+- 🔄 Single Page Application (SPA) behavior
+- 🧩 Component-driven structure
+- 🔗 External links to social platforms and projects
+
+---
+
+## 🛠️ Getting Started
 
 ```bash
-# Clone the repo
+# Clone the repository
 git clone https://github.com/itsagharaza/agha-raza-portfolio.git
 
-# Navigate to project folder
+# Navigate to the project directory
 cd agha-raza-portfolio
 
 # Install dependencies
 npm install
 
-# Start development server
+# Run development server
 npm run dev
+
+
