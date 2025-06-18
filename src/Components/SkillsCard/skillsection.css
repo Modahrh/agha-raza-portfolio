@@ -1,0 +1,20 @@
+.skills-section{
+    max-width: 48rem;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+}
+.skills-grid{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media (max-width:786px){
+    .skills-section{
+    margin: 3rem 1.5rem;
+        padding: 0.625rem; 
+    }
+    .skills-grid{
+        gap: 10px;
+    }
+}

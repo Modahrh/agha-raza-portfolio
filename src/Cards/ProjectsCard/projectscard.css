@@ -1,0 +1,82 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+    background: transparent;
+    padding: 15px 20px;
+    border-radius: 1rem;
+    width: 21.2rem;
+    transition: linear 0.2s;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.card:hover {
+    background-color: #f9f8f8;
+}
+
+.card img {
+    max-width: 40px;
+    border-radius: 5px;
+}
+
+.tech-tags {
+    display: flex;
+    gap: 10px;
+}
+
+.tech-tags span {
+    background-color: #f2f2f2;
+    color: #333333;
+    padding: 5px 10px;
+    border-radius: 50px;
+    border: 1px solid #e0e0e0;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.card h3 {
+    color: #262629;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.card p {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 550;
+    color: #29292e;
+}
+
+
+.card a {
+    text-decoration: none;
+    color: #a6a6ae;
+    font-family: '__GeistSans_', sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 0.9rem;
+    margin: 10px 0px; 
+}
+
+.card a:hover {
+    color: #14b8a6;
+}
+
+
+@media (max-width:786px){
+    .card{
+        gap: 10px;
+    }
+    .card h3{
+        font-size: 1.4rem;
+    }
+    .card p{
+        font-size: 1rem;
+    }
+    .card a{
+        font-size:1.1rem; 
+    }
+}

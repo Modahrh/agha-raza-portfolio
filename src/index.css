@@ -1,0 +1,12 @@
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: '__GeistSans_', sans-serif;
+    font-style: normal;
+}
+h1 {
+  font-family: '__GeistSans_', sans-serif;
+}

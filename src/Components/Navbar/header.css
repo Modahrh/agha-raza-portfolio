@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0px;
+}
+
+header .header-img img {
+    width: 45px;
+    display: none;
+}
+
+header ul {
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: 0.1px solid #dbdbdb;
+    border-radius: 50px;
+}
+
+header ul li{
+    list-style: none;
+    text-transform: capitalize;
+    cursor: pointer;
+    color: #353538;
+}
+header ul li a{
+    text-decoration: none;
+    color:#353538 ;
+}
+header ul li a:active {
+    color: #14b8a6;
+}
+
+header ul li a:hover {
+    color: #14b8a6;
+}
+
+header .header-toggle-btn span {
+    font-family:"Fira Code", monospace;
+    background-color: #dbdbdb;
+    color:#000 ;
+    padding:3px 5px;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: none;
+}
+header .header-toggle-btn span:hover{
+    background-color: #8f9ba8;
+}
+
+
+
+@media (max-width: 480px){
+    header{
+        justify-content: center;
+    }
+    header .header-toggle-btn{
+        display: none;
+    }
+    header ul{
+        padding: 10px 20px;
+    }
+    header ul li{
+        font-size: 1.2rem;
+        
+    }
+}

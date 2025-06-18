@@ -1,0 +1,40 @@
+.skills-intro {
+    max-width: 42rem;
+    margin-top: 8rem;
+}
+
+.skills-intro h1 {
+    font-size: 3rem;
+    line-height: 1;
+    color: rgb(39, 39, 42);
+    font-weight: 700;
+    letter-spacing: -.05em;
+}
+
+.skills-intro p {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: rgb(82 82 91);
+    opacity: 1;
+    font-weight: 550;
+    font-family: 'Inter', sans-serif;
+}
+
+
+@media (max-width:786px){
+    .skills-intro{
+        margin: 0 1.5rem;
+        padding: 0.625rem;
+        margin-top: 7rem;
+    }
+    .skills-intro h1{
+        font-size: 2rem;
+        line-height: 1.2;
+        letter-spacing: -.05em;
+    }
+    .skills-intro p{
+        margin-top: 1rem;
+        font-size: 1.1rem; 
+    }
+}
